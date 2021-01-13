@@ -1,5 +1,5 @@
 import React from "react";
-import Signup from './views/SignUp'
+import Signup from './views/SignIn'
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 const routes = [
