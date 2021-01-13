@@ -15,6 +15,11 @@ class Form extends Component {
     props.onChangeCallback(this.props.fields)
   }
 
+  handleOnSubmit(e, props) {
+    e.preventDefault()
+    props.onClickCallback()
+  }
+
   render() {
     return (
       <form>
@@ -28,7 +33,7 @@ class Form extends Component {
             />
           )
         })}
-        <button className="is-primary is-block">Sign In</button>
+        <button className="is-primary is-block" onClick={e => this.handleOnSubmit(e, this.props)}>Sign In</button>
       </form>
     );
   }

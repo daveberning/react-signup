@@ -12,8 +12,35 @@
 .signup-form .card {
   width: 100%;
   margin-top: 1.5rem;
+  position: relative;
 }
 
 .signup-form button {
   margin-top: 2rem;
+}
+
+.notification {
+  position: absolute;
+  width: 100%;
+  padding: 0 1rem;
+  background: green;
+  left: 0;
+  opacity: 0;
+  bottom: -8rem;
+  color: #fff;
+  transition: all .25s ease;
+}
+
+.notification.show {
+  bottom: -4rem;
+  opacity: 1;
+  transition: all .25s ease;
+}
+
+.notification.success {
+  background: green;
+}
+
+.notification.danger {
+  background: #BE1A0E;
 }
