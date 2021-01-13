@@ -1,0 +1,19 @@
+.signup-form {
+  max-width: 30rem;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.signup-form h1 {
+  margin: 0;
+}
+
+.signup-form .card {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.signup-form button {
+  margin-top: 2rem;
+}

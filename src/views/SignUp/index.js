@@ -1,6 +1,6 @@
-import './Signup.css';
+import './SignUp.css';
 import { Component } from 'react'
-import Form from './../../components/Form'
+import Form from '../../components/Form'
 
 class SignUpView extends Component {
   constructor(props) {
@@ -22,11 +22,15 @@ class SignUpView extends Component {
 
   render() {
     return (
-      <div className="signup">
-        <Form
-          fields={this.state.formFields}
-          onChangeCallback={e => this.setState({ formFields: e })}
-        />
+      <div className="signup-form h-100 vertically-centered">
+        <h1>Sign In to AAA</h1>
+        <p>Please sign in to book your next vacation!</p>
+        <div className="card">
+          <Form
+            fields={this.state.formFields}
+            onChangeCallback={e => this.setState({ formFields: e })}
+          />
+        </div>
       </div>
     );
   }

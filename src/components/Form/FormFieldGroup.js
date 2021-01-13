@@ -18,8 +18,8 @@ class FormFieldGroup extends Component {
     const CustomFormElement = `${this.props.input.tag}`
 
     return (
-      <div>
-        <label>{this.props.input.label}</label><br />
+      <div className="form-group">
+        <label>{this.props.input.label}</label>
         <CustomFormElement
           id={this.props.input.id}
           type={this.props.input.type}

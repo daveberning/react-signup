@@ -1,0 +1,13 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.logo {
+  background: #BE1A0E;
+  display: inline-block;
+  margin: 0;
+  padding: 2rem 2.5rem;
+}

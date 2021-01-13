@@ -1,5 +1,6 @@
 import { Component } from 'react'
 import FormFieldGroup from "./FormFieldGroup";
+import './styles.css'
 
 class Form extends Component {
   constructor(props) {
@@ -27,7 +28,7 @@ class Form extends Component {
             />
           )
         })}
-        <button>Sign Up</button>
+        <button className="is-primary is-block">Sign In</button>
       </form>
     );
   }
