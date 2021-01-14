@@ -22,5 +22,5 @@ $ npm run start
 
 This project contains custom CSS with a persistent state without using a state management library. To test the form, start typing into the fields. There will be a notification that fades in with a message depending on the validation and if the passwords match.
 
-If you do not wish to download the source down to view it, you can interact the deployed version on [Netlify](https://musing-lamarr-f2ba8d.netlify.app/).
+If you do not wish to download the source code, you can interact with the deployed version on [Netlify](https://musing-lamarr-f2ba8d.netlify.app/).
 
